@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Main.DynamicLight" parent="Theme.Main.Light" />
+
+    <style name="Theme.Main.DynamicDark" parent="Theme.Main.Dark" />
+
+    <style name="Theme.Main.DynamicAmoled" parent="Theme.Main.Amoled" />
+
+    <style name="ThemeOverlay.Main.Amoled" parent="">
+        <item name="android:colorBackground">@color/pitch_black</item>
+        <item name="colorSurface">@color/pitch_black</item>
+        <item name="colorSurfaceContainerLowest">@color/pitch_black</item>
+    </style>
+
+</resources>
